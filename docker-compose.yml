@@ -1,7 +1,8 @@
 services:
   hostinger-test1:
-    image: ghcr.io/crannull/hostinger-test1:latest
-    container_name: hostinger-test1
+    image: ghcr.io/crannull/codespace-test-setup1
+:latest
+    container_name: codespace-test-setup1
 
     ports:
       - "3000:3000"
