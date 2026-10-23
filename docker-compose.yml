@@ -1,7 +1,6 @@
 services:
   hostinger-test1:
-    image: ghcr.io/crannull/codespace-test-setup1
-:latest
+    image: ghcr.io/crannull/codespace-test-setup1:latest
     container_name: codespace-test-setup1
 
     ports:
